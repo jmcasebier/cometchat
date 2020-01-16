@@ -11,7 +11,7 @@ export default class Dashboard extends Component {
     };
     this.updateState = this.updateState.bind(this);
   }
-  
+
   // recieve event from props and update the state with the data
   updateState(channel) {
     this.setState({ channelUID: channel, isShowMessages: true }, () => {

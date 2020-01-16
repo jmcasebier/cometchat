@@ -11,7 +11,7 @@ export default class Login extends Component {
         this.login = this.login.bind(this);
         this.renderRedirect = this.renderRedirect.bind(this);
         this.handleUserInput = this.handleUserInput.bind(this);
-        this.handleSubmit - this.handleSubmit.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
         this.state = {
             redirect: false,
             userName: '',
